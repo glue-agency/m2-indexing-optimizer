@@ -9,7 +9,6 @@
             "email": "nico@mglue.be"
         }
     ],
-    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "files": [
