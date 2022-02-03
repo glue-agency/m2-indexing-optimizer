@@ -1,0 +1,22 @@
+{
+    "name": "glue/module-m2-indexing-optimizer",
+    "description": "Set indexing values like batchrowcount to prevent memory issues during indexation",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Nico De Gols",
+            "email": "nico@mglue.be"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Glue\\Indexer\\": ""
+        }
+    }
+}
